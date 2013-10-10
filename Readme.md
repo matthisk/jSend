@@ -1,4 +1,5 @@
 # jSend Ajax
+=========
 
 Very simple wrapper for jQuery ajax, which validates the result according to the unoffical [jSend](http://labs.omniti.com/labs/jsend) spec. For more information on the spec check their site.
 
