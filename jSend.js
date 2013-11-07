@@ -30,12 +30,12 @@
                         case FAIL:
                             if( ! jsend.data ) throw new Error(ERROR_STRING,jsend);
                             deferred.reject(jsend);
-                            if( cfg.throwError ) throw new Error('Some of the supplied data to the url: ' + config.submit_url + ' was incorrect. Failed with return: ' + jsend.data);
+                            if( config.throwError ) throw new Error('Some of the supplied data to the url: ' + config.submit_url + ' was incorrect. Failed with return: ' + jsend.data);
                             break;
                         case ERROR:
                             if( ! jsend.message ) throw new Error(ERROR_STRING,jsend);
                             deferred.reject(jsend);
-                            if( cfg.throwError ) throw new Error('A server side error ocurred with message: ' + jsend.message);
+                            if( config.throwError ) throw new Error('A server side error ocurred with message: ' + jsend.message);
                             break;
                         default:
                             throw new Error(ERROR_STRING,jsend);
