@@ -1,12 +1,12 @@
 {
-  "name": "jSend",
-  "version": "0.1.0",
-  "main": "jSend.js",
-  "ignore": [
-    ".jshintrc",
-    "**/*.txt"
-  ],
-  "dependencies": {
-    "jquery": "latest",
-  }
+    "name": "jSend",
+    "version": "0.1.0",
+    "main": "jSend.js",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+        "jquery": "latest"
+    }
 }
